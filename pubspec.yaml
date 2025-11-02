@@ -1,0 +1,28 @@
+name: sports_app
+description: A simple sports app using SharedPreferences for local storage
+publish_to: 'none' # prevents accidental publishing
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 🔹 Local data storage
+  shared_preferences: ^2.3.2
+
+  # 🔹 Core Flutter UI icons
+  cupertino_icons: ^1.0.8
+  flutter_map: ^4.0.0
+  latlong2: ^0.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
